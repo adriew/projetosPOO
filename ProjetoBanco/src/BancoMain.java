@@ -34,7 +34,7 @@ public class BancoMain {
             while(login == false)
             {
                 System.out.println("Escolha uma conta");
-                System.out.println("1.          2." );
+                System.out.println("1. Yan         2. Yuri" );
                 conta = input.nextLine();
                 if(conta.equals("1") || conta.equals("2")){
                     login = true;

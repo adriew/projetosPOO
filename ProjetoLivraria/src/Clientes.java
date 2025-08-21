@@ -11,13 +11,13 @@ public class Clientes {
 
     void checarPerfil(){
         System.out.printf("---- Perfil de Cliente: ----\n");
-        System.out.printf("Nome: %s\n,", nome);
+        System.out.printf("Nome: %s\n", nome);
         System.out.printf("Idade: %d\n", idade);
         System.out.printf("Cadastro: %s\n", cadastro);
 
     }
     void ler(){
-        System.out.println("Leitura realizada sucesso! Inteligencia aumentou em 10 pontos!");
+        System.out.printf("%s leu com sucesso! Inteligencia aumentou em 10 pontos!\n", nome);
 
     }
 }
